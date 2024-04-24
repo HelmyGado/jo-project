@@ -14,6 +14,7 @@
 }
 
 .nav-sec {
+    position: sticky;
     width: 85%;
     margin: auto;
     padding: 25px;
@@ -67,13 +68,27 @@
 .price {
     position: absolute;
     top: 133px;
-    right: 160px;
+    right: 120px;
     background-color: #0171f9;
     border-radius: 25px;
     padding: 3px 7px;
-
-    
+    color: white;
+    font-size: larger;
+    font-weight: bolder;    
 }
+
+.offer {
+    position: absolute;
+    top: 403px;
+    right: 330px;
+    background-color: #ee626b;
+    border-radius: 108px;
+    padding: 20px 12px;
+    color: #fff;
+    font-size: larger;
+    font-weight: bolder;
+}
+
 
 textarea {
     height: 38px;
@@ -95,5 +110,6 @@ button {
     font-size: 14px;
     background-color: #ee626b;
     position: absolute;
-    left: 350px;
+    left: 260px;
 }
+
